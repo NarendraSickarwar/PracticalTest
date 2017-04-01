@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GoPettingPractical</string>
+    <string name="pleasewait">Please Wait...</string>
+    <string name="google_not_connected">Google client is not connected</string>
+    <string name="network_not_available">Network not available.</string>
+    <string name="network_not_availavle">Network not available.</string>
+    <string name="cart">Cart</string>
+    <string name="login_screen">Login Screen</string>
+    <string name="guide_list">Guides</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="cart_list">Cart List</string>
+    <string name="remove_cart">REMOVE</string>
+</resources>

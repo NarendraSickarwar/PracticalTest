@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "652909881781",
+    "firebase_url": "https://practicaltest-fee82.firebaseio.com",
+    "project_id": "practicaltest-fee82",
+    "storage_bucket": "practicaltest-fee82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652909881781:android:1a382040946e0b05",
+        "android_client_info": {
+          "package_name": "test.narendra.com.gopettingpractical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652909881781-m270mdf9aesprmme5gdgbb4as7io0onv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.narendra.com.gopettingpractical",
+            "certificate_hash": "0213311978d4538813abbaf008aab488005efefe"
+          }
+        },
+        {
+          "client_id": "652909881781-ibb1hk93n1u570c9p43m0sa518viaas0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpIXav_jy9Sj3wwNDYgdUkUy1nJu8kHmE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652909881781-ibb1hk93n1u570c9p43m0sa518viaas0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

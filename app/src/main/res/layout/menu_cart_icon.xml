@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_main_layout"
+    android:layout_width="48dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="right">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@mipmap/shopping_cart" />
+    <!-- Badge Count -->
+    <LinearLayout
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/badge_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/actionbar_notifcation_textview"
+            style="@style/normal_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0" />
+    </LinearLayout>
+
+
+</RelativeLayout>

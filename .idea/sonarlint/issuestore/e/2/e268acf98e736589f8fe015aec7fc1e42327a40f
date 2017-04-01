@@ -1,0 +1,4 @@
+
+Qsquid:CallToDeprecatedMethod"+Remove this use of "API"; it is deprecated.(Ş·®é
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÁğÈè8Ğìïì±+
+Rsquid:CallToDeprecatedMethod",Remove this use of "Plus"; it is deprecated.(Ş·®é

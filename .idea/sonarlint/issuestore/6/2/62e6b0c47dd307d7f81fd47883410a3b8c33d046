@@ -1,0 +1,4 @@
+
+‡squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(õÂ¹¨ûÿÿÿÿ
+–squid:S1319"|The type of the "requestValuePairsMap" object should be an interface such as "Map" rather than the implementation "HashMap".(õÂ¹¨ûÿÿÿÿ
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(Åø•†ûÿÿÿÿ

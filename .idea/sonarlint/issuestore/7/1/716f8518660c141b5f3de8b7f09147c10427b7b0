@@ -1,0 +1,9 @@
+
+Nsquid:S1659"2Declare "textviewGuideEndDate" on a separate line.(«®÷à8ÄøÒ¢²+
+ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ŠÑ8¹ÑÅ¢²+
+}squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(Ûóşx8¤«Æ¢²+
+Osquid:S1444"3Make this "public static addTocartItem" field final(Š·ìÄ8œÊ¢²+
+3squid:S2176"Rename this class.(¿êÌŒúÿÿÿÿ8ÄøÒ¢²+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(³Ì Å8ÀµË¢²+
+Œ"squid:ClassVariableVisibilityCheck"YMake addTocartItem a static final constant or non-public and provide accessors if needed.(Š·ìÄ8œÊ¢²+
+qsquid:S00116"TRename this field "_cContext" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÙ‡§8¹ÑÅ¢²+
