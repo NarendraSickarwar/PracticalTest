@@ -20,6 +20,7 @@ import io.realm.Realm;
 import test.narendra.com.gopettingpractical.R;
 import test.narendra.com.gopettingpractical.database.GuideDataTable;
 import test.narendra.com.gopettingpractical.modal.GuideDataModal;
+import test.narendra.com.gopettingpractical.utils.Utils;
 
 /**
  * <h1>Guide List adapter, provides data for guide recycler@{@link android.support.v7.widget.RecyclerView.Adapter}</h1>
@@ -98,7 +99,10 @@ public class GuideListAdapter extends RecyclerView.Adapter<GuideListAdapter.View
 
                     realm.copyToRealmOrUpdate(dataTable);
                     realm.commitTransaction();
-
+                    /***
+                     * send event to update budge on main activity
+                     */
+                    Utils.sendEventBusData(addTocartItem);
 
                 }
 
