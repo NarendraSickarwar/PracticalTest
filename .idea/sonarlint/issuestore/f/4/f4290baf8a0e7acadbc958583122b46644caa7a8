@@ -1,8 +1,0 @@
-
-Fsquid:S1068"*Remove this unused "client" private field.(Æ´–ï8—Ÿí±+
-gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ8¸®ûŸ²+
-U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ºÖ8¸®ûŸ²+
-bsquid:S1132"FMove the "" string literal on the left side of this string comparison.(İåõÆ8ØåúŸ²+
-csquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(Õ¯ä¹
-‹squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(àîÈûıÿÿÿÿ8¸®ûŸ²+
-qsquid:S1450"URemove the "client" field and declare it as a local variable in the relevant methods.(Æ´–ï8—Ÿí±+

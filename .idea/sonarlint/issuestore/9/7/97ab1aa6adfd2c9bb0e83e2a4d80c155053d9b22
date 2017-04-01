@@ -1,5 +1,0 @@
-
-wsquid:S3008"]Rename this field "CONNECTION_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë„“øûÿÿÿÿ
-ssquid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "gitHub".(´°Ñş
-lsquid:S3008"RRename this field "API_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜™íÇüÿÿÿÿ
-Tsquid:S1118":Add a private constructor to hide the implicit public one.(³Æøûÿÿÿÿ

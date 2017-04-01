@@ -1,15 +1,0 @@
-
-Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(ë°ô§
-Osquid:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
-msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ÕØƒ¯ùÿÿÿÿ
-Vsquid:S1226"AIntroduce a new variable instead of reusing the parameter "size".(ôéøÙ
-:squid:S1166"%Either log or rethrow this exception.(”ı¾
-hsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(š²ì‹
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(ëâ×
-Usquid:S1226"@Introduce a new variable instead of reusing the parameter "bit".(ùô•‰
-tsquid:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "px".(ÓÚ×úıÿÿÿÿ
-|squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "subSampled".(Ò£©üÿÿÿÿ
-Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ò†çıÿÿÿÿ
-=squid:S1185"(Remove this method to simply inherit it.(š«Êø
-`squid:S1132"FMove the "" string literal on the left side of this string comparison.(ı²°ˆûÿÿÿÿ

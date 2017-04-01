@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     RelativeLayout activityMainLayout;
     TextView mBadgeCount;
+    RelativeLayout badgeLayout;
     private Realm realm;
 
     @Override
@@ -71,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
          * add cart icon and budge image in toolbar
          */
         getMenuInflater().inflate(R.menu.main, menu);
-        RelativeLayout badgeLayout = (RelativeLayout) menu.findItem(R.id.badge).getActionView();
+        badgeLayout = (RelativeLayout) menu.findItem(R.id.badge).getActionView();
         mBadgeCount = (TextView) badgeLayout.findViewById(R.id.actionbar_notifcation_textview);
         GuideDataTable modal = realm.where(GuideDataTable.class).findFirst();
 
@@ -86,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 addFragmentMultiple(CartListFragment.newInstance());
                 toolbar.setTitle(getString(R.string.cart_list));
+                badgeLayout.setEnabled(false);
             }
         });
         return super.onCreateOptionsMenu(menu);
@@ -140,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
             }
             if (getSupportFragmentManager().getBackStackEntryCount() == 1) {
                 toolbar.setTitle(getString(R.string.guide_list));
+                badgeLayout.setEnabled(true);
 
             }
         } else {
